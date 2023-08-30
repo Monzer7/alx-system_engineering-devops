@@ -1,0 +1,1 @@
+this repository for learning shell basic
