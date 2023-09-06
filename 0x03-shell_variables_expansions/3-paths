@@ -1,2 +1,3 @@
 #!/bin/bash
-export $PATH=$PATH:::::/hello|grep -o ":/"| wc-l 
+echo $PATH |tr -s ':/' '\n' | wc -l
+
